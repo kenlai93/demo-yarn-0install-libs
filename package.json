@@ -25,5 +25,12 @@
   "files": [
     "package.json",
     "dist"
-  ]
+  ],
+  "description": "",
+  "version": "1.0.1",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
 }
