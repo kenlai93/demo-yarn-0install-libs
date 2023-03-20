@@ -40,5 +40,6 @@ export type Order = {
 };
 export declare function sum(arr: number[]): number;
 export declare function average(arr: number[]): number;
+export declare function median(arr: number[]): number;
 
 export {};
