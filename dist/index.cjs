@@ -20,6 +20,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.ts
 var src_exports = {};
 __export(src_exports, {
+  average: () => average,
   sum: () => sum
 });
 module.exports = __toCommonJS(src_exports);
@@ -28,7 +29,11 @@ module.exports = __toCommonJS(src_exports);
 function sum(arr) {
   return arr.reduce((acc, cur) => acc + cur, 0);
 }
+function average(arr) {
+  return sum(arr) / arr.length;
+}
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
+  average,
   sum
 });

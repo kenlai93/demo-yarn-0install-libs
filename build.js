@@ -1,7 +1,5 @@
 const esbuild = require('esbuild')
 
-const formats = ['cjs', 'esm']
-
 /** @type {esbuild.BuildOptions} */
 const cjsOptions = {
   bundle: true,
